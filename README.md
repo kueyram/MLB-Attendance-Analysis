@@ -74,6 +74,7 @@ To download the project, you can clone the GitHub repository using the following
 
 ```bash
 git clone https://github.com/kueyram/MLB-Attendance-Analysis.git
+```
 
 ## Requirements
 
@@ -89,7 +90,7 @@ You can install these libraries using pip:
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
-
+```
 
 ## License
 
