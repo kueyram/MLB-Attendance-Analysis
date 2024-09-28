@@ -9,6 +9,7 @@ This project analyzes the attendance of the Los Angeles Dodgers during the 2022 
 - [Correlation Analysis](#correlation-analysis)
 - [Modeling](#modeling)
 - [Conclusion](#conclusion)
+- [How to Download the Project](#how-to-download-the-project)
 - [Requirements](#requirements)
 - [License](#license)
 
@@ -59,7 +60,7 @@ A linear regression model was developed to predict attendance based on several f
 - Day/Night games
 - Various promotional events
 
-Key results include:
+## Key results include:
 - The model explains approximately 18.32% of the variance in attendance (R-squared = 0.1832).
 - Bobblehead promotions have a significant positive impact on attendance.
 
@@ -67,16 +68,29 @@ Key results include:
 
 The analysis highlights that Tuesdays and summer months (June and July) attract the most fans. Recommendations for increasing attendance include planning more promotions during slower months and capitalizing on busier times with special offers.
 
+## How to Download the Project
+
+To download the project, you can clone the GitHub repository using the following command:
+
+```bash
+git clone https://github.com/kueyram/MLB-Attendance-Analysis.git
+
 ## Requirements
 
 To run this project, you will need the following libraries:
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- scikit-learn
+
+    pandas
+    numpy
+    matplotlib
+    seaborn
+    scikit-learn
 
 You can install these libraries using pip:
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
+
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
